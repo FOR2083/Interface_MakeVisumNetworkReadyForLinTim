@@ -1,0 +1,5943 @@
+<?xml  version = "1.0"  encoding = "UTF-8"?>
+<PROCEDURES  VERSION = "1902">
+  <FUNCTIONS>
+    <PUTSKIMMATRIXSETTINGS
+      USELONGLENGTH = "1"
+      USESECONDS = "0"
+      USESECONDSIMP = "0"
+      PATHLEGATTRIBUTE = "LINEROUTE\ADDVAL1"
+      PATHLEGAGGREGATETYPE = "MAX"
+      DISCOMFORTPARAA = "7.5"
+      DISCOMFORTPARAB = "4.5">
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIME"
+        CODE = "JRT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIMEADAPTED"
+        CODE = "JRTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIME"
+        CODE = "RIT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIMEADAPTED"
+        CODE = "RITA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIME"
+        CODE = "IVT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXTIME"
+        CODE = "AXT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIME"
+        CODE = "OWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIMEADAPTED"
+        CODE = "OWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIME"
+        CODE = "TWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIMEADAPTED"
+        CODE = "TWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTTRANSFERWAITTIME"
+        CODE = "XTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDORIGINWAITTIME"
+        CODE = "WOWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDTRANSFERWAITTIME"
+        CODE = "WTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKTIME"
+        CODE = "WKT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSTIME"
+        CODE = "ACT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSTIME"
+        CODE = "EGT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PERCEIVEDJOURNEYTIME"
+        CODE = "PJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMTRANSFERS"
+        CODE = "NTR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTIMPEDANCE"
+        CODE = "XIMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SERVICEFREQUENCY"
+        CODE = "SFQ"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "10"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELTIME"
+        CODE = "SHTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DRTTIME"
+        CODE = "DRTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DRTWAITTIME"
+        CODE = "DRTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRENTALPROCESSTIME"
+        CODE = "SHAT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELDIST"
+        CODE = "SHTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DRTDIST"
+        CODE = "DRTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRETURNPROCESSTIME"
+        CODE = "SHET"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHAREOFODTRIPSWITHRELEVANTDELAY"
+        CODE = "STRD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RISKOFDELAYPERPERSON"
+        CODE = "RDP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYDIST"
+        CODE = "JRD"
+        IGNOREDODVALUE = "999999.9"
+        NOPATHSFOUNDVALUE = "999999.9"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "3"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDEDIST"
+        CODE = "RID"
+        IGNOREDODVALUE = "999999.9"
+        NOPATHSFOUNDVALUE = "999999.9"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "3"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDIST"
+        CODE = "IVD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "3"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXDIST"
+        CODE = "AXD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKDIST"
+        CODE = "WKD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSDIST"
+        CODE = "ACD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSDIST"
+        CODE = "EGD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYSPEED"
+        CODE = "JRS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDISTSPEED"
+        CODE = "DIS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "FARE"
+        CODE = "FAR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMFZ"
+        CODE = "NFZ"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMOPERATORCHANGES"
+        CODE = "NOC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTBYTSYS"
+        CODE = "IVTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTPERCBYTSYS"
+        CODE = "IVTP"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "1"
+        NUMDECPLACES = "4"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIMEBYTSYS"
+        CODE = "IVTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IPD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCELOGSUM"
+        CODE = "ILS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "-999999"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "UTILITY"
+        CODE = "UTL"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "4"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PATHLEGATTRIBUTE"
+        CODE = "PLA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "-999999"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADAPTATIONTIME"
+        CODE = "ADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTADAPTATIONTIME"
+        CODE = "XADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "0"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EQUIVALENTJOURNEYTIME"
+        CODE = "EJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "15"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "99999"
+        NUMDECPLACES = "1"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DISCOMFORT"
+        CODE = "DISC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PUTSKIMMATRIXSETTINGS>
+    <PRTSKIMMATRIXSETTINGS      USELONGLENGTH = "1"      USESECONDS = "0">
+      <USERDEFSKIM>
+        <LINCOMB          NETOBJECTTYPE = "LINK">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "1"
+            FIRSTATTRNAME = "ADDVAL1"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "CONNECTOR">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "TURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "MAINTURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+      </USERDEFSKIM>
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "T0"
+        CODE = "TT0"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "8"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TCUR"
+        CODE = "TTC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "8"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "V0"
+        CODE = "VP0"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "VCUR"
+        CODE = "VPC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRIPDIST"
+        CODE = "DIS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "3"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL1"
+        CODE = "AD1"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL2"
+        CODE = "AD2"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL3"
+        CODE = "AD3"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL_TSYS"
+        CODE = "ADS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TOLL"
+        CODE = "TOL"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "USERDEF"
+        CODE = "UDS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PRTSKIMMATRIXSETTINGS>
+    <VDFUNCTIONSPARAMETERS>
+      <CONNECTORVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          NO = "1"
+          NAME = ""
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "3"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </CONNECTORVDFUNCTIONSPARAMETERS>
+      <LINKVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          NO = "1"
+          NAME = ""
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "3"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </LINKVDFUNCTIONSPARAMETERS>
+      <VDFUNCTIONS        USEVMIN = "0">
+        <ATTRIBUTE          NAME = "VDFUNCTIONNO_LINKTYPE">
+          <ATTRITEM            SUBATTR1 = "0"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "1"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "2"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "3"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "4"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "5"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "6"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "7"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "8"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "9"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "10"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "11"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "12"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "13"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "14"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "15"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "16"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "17"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "18"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "19"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "20"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "21"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "22"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "23"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "24"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "25"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "26"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "27"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "28"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "29"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "30"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "31"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "32"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "33"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "34"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "35"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "36"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "37"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "38"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "39"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "40"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "41"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "42"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "43"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "44"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "45"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "46"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "47"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "48"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "49"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "50"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "51"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "52"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "53"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "54"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "55"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "56"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "57"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "58"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "59"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "60"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "61"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "62"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "63"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "64"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "65"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "66"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "67"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "68"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "69"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "70"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "71"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "72"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "73"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "74"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "75"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "76"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "77"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "78"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "79"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "80"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "81"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "82"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "83"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "84"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "85"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "86"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "87"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "88"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "89"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "90"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "91"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "92"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "93"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "94"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "95"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "96"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "97"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "98"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "99"            VALUE = "1"          />          
+        </ATTRIBUTE>
+      </VDFUNCTIONS>
+    </VDFUNCTIONSPARAMETERS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "Fuss"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Fuss)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Fuss)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Fuss)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Fuss)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Fuss)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "LkwS_BV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "LkwS_DV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "LkwS_RV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(LkwS_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "Lkw_BV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_BV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "Lkw_DV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_DV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "Lkw_RV"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Lkw_RV)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "P"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "Rad"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Rad)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Rad)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Rad)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Rad)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "100"
+          FIRSTATTRNAME = "TCUR_PRTSYS(Rad)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <NODEIMPEDANCEPARA
+      HOURLYVOLUMESOURCE = "Volume-PrT"
+      HOURLYVOLUMEFACTOR = "1"
+      NODEIMPEDANCEMETHOD = "TURNTCUR_TURNVDFUNCTION"
+      USEMAXUNCONTROLLED = "0"
+      UNCONTROLLEDT0FACTOR = "20"
+      MAXUNCONTROLLED = "10min"
+      USEMAXICASIGNALIZED = "0"
+      MAXICASIGNALIZED = "10min"
+      ICAIDEALSATURATIONFLOWRATE = "1900"
+      ICAIDEALSATURATIONFLOWRATEICU1 = "1600"
+      ICAIDEALSATURATIONFLOWRATEICU2 = "1600"
+      ICAIDEALSATURATIONFLOWRATECCG = "1850"
+      ICAPCULENGTH = "6m"
+      ICAPEDESTRIANWALKINGSPEED = "1.2000000000000004m/s"
+      ICARIGHTTURNPEDESTRIANFACTOR = "Toronto"
+      USEMAXICATWOWAYSTOP = "0"
+      MAXICATWOWAYSTOP = "10min"
+      USEMAXICAROUNDABOUT = "1"
+      MAXICAROUNDABOUT = "10min"
+      USEMAXICAALLWAYSTOP = "1"
+      MAXICAALLWAYSTOP = "10min"
+      ICATIMEINTERVAL = "1h"
+      WRITEEXCELREPORT = "1"
+      QUEUELENGTHPERCENTILE = "90"
+      IGNOREUTURNS = "1"
+      ICAMETHODROUNDABOUT = "HCM 2010"
+      USELANELENGTH = "0"
+      ICAMETHODSIGNALIZED = "HCM 2000"
+      ICAMETHODTWOWAYSTOP = "HCM 2000"
+      ICAMETHODALLWAYSTOP = "HCM 2000">
+      <UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+        <VDFUNCTION
+          NO = "1"
+          NAME = ""
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "2"
+          BPR_B = "4"
+          BPR_BISREAL = "0"
+          BPR2_A = "2"
+          BPR2_B1 = "4"
+          BPR2_B2 = "0.8"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+      <NODEVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          NO = "1"
+          NAME = ""
+          VDFUNCTIONTYPE = "TMODEL_NODES"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <NODEVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_NODETYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "10"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "11"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "12"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "13"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "14"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "15"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "16"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "17"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "18"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "19"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "20"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "21"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "22"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "23"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "24"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "25"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "26"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "27"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "28"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "29"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "30"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "31"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "32"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "33"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "34"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "35"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "36"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "37"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "38"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "39"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "40"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "41"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "42"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "43"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "44"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "45"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "46"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "47"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "48"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "49"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "50"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "51"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "52"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "53"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "54"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "55"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "56"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "57"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "58"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "59"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "60"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "61"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "62"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "63"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "64"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "65"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "66"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "67"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "68"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "69"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "70"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "71"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "72"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "73"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "74"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "75"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "76"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "77"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "78"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "79"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "80"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "81"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "82"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "83"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "84"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "85"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "86"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "87"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "88"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "89"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "90"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "91"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "92"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "93"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "94"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "95"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "96"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "97"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "98"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "99"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </NODEVDFUNCTIONS>
+      </NODEVDFUNCTIONSPARAMETERS>
+      <TURNVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          NO = "1"
+          NAME = ""
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <TURNVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_TURNTYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </TURNVDFUNCTIONS>
+      </TURNVDFUNCTIONSPARAMETERS>
+    </NODEIMPEDANCEPARA>
+    <SIGNALCOORDINATIONPARA
+      DOANALYZE = "1"
+      USECOORDGRPSET = "0"
+      COORDGRPSET = ""
+      MAXVOLCAPRATIO = "80"
+      MINPLATOONINDEX = "0.4"
+      USEDSEGSET = "0"
+      DSEGSET = "PD,PM,PS"
+      PROGRESSIONATTRLINK = "TCUR_PRTSYS(P)"
+      PROGRESSIONFACLINK = "1"
+      PROGRESSIONATTRTURN = "TCUR_PRTSYS(P)"
+      PROGRESSIONFACTURN = "1"
+      PROGRESSIONATTRMAINTURN = "TCUR_PRTSYS(P)"
+      PROGRESSIONFACMAINTURN = "1"
+      PLATOONALPHA = "0.35"
+      PLATOONBETA = "0.8"
+      MAXCALCTIME = "2min"
+    />    
+    <SIGNALOPTIMIZATIONPARA
+      INTERGREENMODEFIXED = "0"
+      USECYCLETIMEFAMILY = "0"
+      NUMDECPLACES = "1"
+    />    
+    <PARKANDRIDEVDFUNCTIONSPARAMETERS    />    
+    <PRTGENERALPARA      MAXNOTCONVOBJECTSFORTRACE = "50"      APPLYCONNECTORSHARESTOEACHODPAIR = "0"    />    
+    <PRTVOLUMESPARA
+      USESIMPLECALCULATION = "1"
+      FIXBASISVOLUME = "0"
+      ADDVALIND = "1"
+      FACTORSIMPLECALCULATION = "1"
+      LINKFACTOR = "1"
+      CONNECTORFACTOR = "1"
+      TURNFACTOR = "1"
+      LINKATTR = "ADDVAL1"
+      CONNECTORATTR = "ADDVAL1"
+      TURNATTR = "ADDVAL1"
+      PATHSSTORAGE = "StoragePathsRoutes"
+      MAINTURNFACTOR = "1"
+      MAINTURNATTR = "ADDVAL1"
+    />    
+    <PUTVOLUMESPARA
+      NUMDECPLACES = "1"
+      ROUNDDEMANDANDVOLUME = "0"
+      PATHSSTORAGE = "StoragePathsConnections"
+      VOLUMESTORAGE = "StorageVolumesTimeProfiles"
+      FARESSTORAGE = "StorageFaresNone"
+      PJTSTORAGE = "0"
+      TRANSFERSSTORAGE = "StorageTransfersTimeProfiles"
+      WALKSEARCHINSIDESTOP = "WALKSEARCHINSIDESTOP_FREE"
+      PUTWALKFROMORTOCONNECTORS = "WALKFROMORTOCONNECTORS_FREE"
+      MAXWALKTIME = "30min"
+      MAXPUTAUXTIME = "2h"
+      MAXDRTTIME = "2h"
+      STOPPOINTVOLUMEMATRIXPATHSTORAGE = "0"
+      STOPPOINTVOLUMEMATRIXPATHLEGSTORAGE = "0"
+      USENUMDECPLACES = "1"
+      MULTIPLEOF = "0.025"
+      STOREVOLUMEFORDEMANDINTERVALS = "0">
+      <ATTRIBUTE        NAME = "MAXSHARINGTIME"      />      
+    </PUTVOLUMESPARA>
+    <PUTREVENUESPARA
+      REVENUEBASE = "Revenue from fare model"
+      REVPERTRIP = "2"
+      REVPERFAREPOINT = "0.2"
+      REVTOTAL = "0"
+      AMOUNTPERPARTROUTE = "0"
+      WEIGHTOFFAREPOINTS = "50"
+      TSYSSUPPLDISTR = "0"
+    />    
+    <BLOCKINGBACKPARA
+      USEBLOCKINGBACK = "0"
+      USELINKCAP = "1"
+      LINKCAPMODEL = "BBACKLINKCAPMODEL_LINKCAP"
+      USELINKASSIGNICAAPPROACHCAP = "0"
+      USENODECAP = "0"
+      USETURNCAP = "0"
+      TURNCAPMODEL = "BBACKTURNCAPMODEL_CAPPRT"
+      SCALINGFACTOR = "1"
+      AVERAGESPACEPERCARUNIT = "7m"
+      DURATIONPHASE1 = "1h"
+      NUMBEROFVOLUMESLICESPHASE1 = "10"
+      CALCULATIONVARIANT = "SEQUENTIALROUTEPROCESSING"
+    />    
+    <PATHSEQUENCESKIMMATRIXSETTINGS    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_Einzel"      SAVEASDSEG = "OEV_Einzel"    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_Einzel_Früh"      SAVEASDSEG = "OEV_Einzel_Früh"    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_Einzel_Spät"      SAVEASDSEG = "OEV_Einzel_Spät"    />    
+    <VOLUMESPARA      ORIGDSEG = "OeV_ex"      SAVEASDSEG = "OeV_ex"    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_ex_Früh"      SAVEASDSEG = "OEV_ex_Früh"    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_ex_Spät"      SAVEASDSEG = "OEV_ex_Spät"    />    
+    <VOLUMESPARA      ORIGDSEG = "OEV_Monat"      SAVEASDSEG = "OEV_Monat"    />    
+    <VOLUMEMATRIXPARA
+      CREATEFLOWBUNDLEFORMULAMATRICES = "1"
+      FLOWBUNDLEFORMULAMATRIXCODE = "FlowBundle"
+      CREATEASSIGNEDVOLUMEFORMULAMATRICES = "0"
+      ASSIGNEDVOLUMEFORMULAMATRIXCODE = "AssignedVol"
+    />    
+    <REMOTEOPERATIONFLOWPARA      DELETETEMPFILESONCALCULATIONSERVER = "1">
+      <ATTRIBUTE        NAME = "UPLOAD">
+        <ATTRITEM          SUBATTR1 = "VERSION"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ATTRIBUTE"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "FILTER"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "SURVEYDATA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "EXTERNAL_SC"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "VBS"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "CONNECTIONIO"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ROUTEIMPORT"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ICA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "USERVDFDLLS"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "VISUMADDIN"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "MATRIX"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "OTHERINPUTDATA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "OTHEROUTPUTDATA"          VALUE = "0"        />        
+      </ATTRIBUTE>
+      <ATTRIBUTE        NAME = "DOWNLOAD">
+        <ATTRITEM          SUBATTR1 = "VERSION"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ATTRIBUTE"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "FILTER"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "SURVEYDATA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "EXTERNAL_SC"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "VBS"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "CONNECTIONIO"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ROUTEIMPORT"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "ICA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "USERVDFDLLS"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "VISUMADDIN"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "MATRIX"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "OTHERINPUTDATA"          VALUE = "0"        />        
+        <ATTRITEM          SUBATTR1 = "OTHEROUTPUTDATA"          VALUE = "0"        />        
+      </ATTRIBUTE>
+    </REMOTEOPERATIONFLOWPARA>
+  </FUNCTIONS>
+  <OPERATIONS>
+    <OPERATION
+      NO = "1"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Load Infrastructure"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "2"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Set Project directories"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[## Sets directories of Visum-files
+# @param [in] -
+# @param [out]  -
+def set_visum_path():
+    folder_path = Visum.UserPreferences.DocumentName.rsplit('\\', 2)[
+        0]  # path to opened Visum file (filenamepath), cut level to main folder level
+    Visum.SetAllPaths(folder_path)  # set all project directory paths to main to main folder level
+
+    '''
+    specify project directory type, set path to sub folder  
+    '''
+    Visum.SetPath(81, "\\".join([folder_path, 'Access-Database']))
+    Visum.SetPath(15, "\\".join([folder_path, 'Attributes']))
+    Visum.SetPath(21, "\\".join([folder_path, 'Filter']))
+    Visum.SetPath(8, "\\".join([folder_path, 'Graphicparameters']))
+    Visum.SetPath(69, "\\".join([folder_path, 'Matrix']))
+    Visum.SetPath(1, "\\".join([folder_path, 'Net']))
+    Visum.SetPath(12, "\\".join([folder_path, 'Project-directories']))
+    Visum.SetPath(41, "\\".join([folder_path, 'Screenshot']))
+    Visum.SetPath(37, "\\".join([folder_path, 'Script']))
+    Visum.SetPath(2, "\\".join([folder_path, 'Version']))
+
+set_visum_path()
+
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "3"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Load Infrastructure"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[directory = Visum.GetPath(81)		#81 =accdb
+access_path = directory + r"LineRoutesAsLinks_EditedLinks.accdb"
+
+
+# create NetRouteSearchTSys-Object and choose route search options
+NetReadRouteSearchTSysController = Visum.CreateNetReadRouteSearchTSys()
+NetReadRouteSearchTSysController.SetAttValue("DELETEOLDLINEROUTES", False)
+NetReadRouteSearchTSysController.SetAttValue("IGNOREITEMSWITHUNKNOWNNETWORKREFERENCE", False)
+NetReadRouteSearchTSysController.SetAttValue("WHATTODOIFSTOPPOINTNOTFOUND", 1)	#Use stop point of node
+NetReadRouteSearchTSysController.SetAttValue("WHATTODOIFSTOPPOINTISBLOCKED", 2)	#Open the stop point
+NetReadRouteSearchTSysController.SetAttValue("INCLUDEBLOCKEDLINKS", False)
+NetReadRouteSearchTSysController.SetAttValue("INCLUDEBLOCKEDTURNS", False)
+NetReadRouteSearchTSysController.SetAttValue("HOWTOHANDLEINCOMPLETEROUTE", "SEARCHSHORTESTPATH")
+NetReadRouteSearchTSysController.SetAttValue("SHORTESTPATHCRITERION", 1)	#Link travel time of current transport system
+NetReadRouteSearchTSysController.SetAttValue("MAXDEVIATIONFACTOR", 20)
+NetReadRouteSearchTSysController.SetAttValue("LINKTYPEFORINSERTEDLINKSREPLACINGMISSINGSHORTESTPATHS", 98)
+
+# create NetRouteSearch-Object and assign NetRouteSearchTSys-objects
+NetReadRouteSearchController = Visum.CreateNetReadRouteSearch()
+NetReadRouteSearchController.SetForAllTSys(NetReadRouteSearchTSysController)
+
+
+# create AddNetRead-Object and specify desired conflict avoiding method
+AddNetReadController = Visum.CreateAddNetReadController
+AddNetReadController.SetWhatToDo("Network", 3)			#Ignore
+AddNetReadController.SetWhatToDo("Line", 0)			#Do not read
+AddNetReadController.SetWhatToDo("LineRoute", 0)		#Do not read
+AddNetReadController.SetWhatToDo("LineRouteItem", 0)		#Do not read
+AddNetReadController.SetWhatToDo("TimeProfile", 0)		#Do not read
+AddNetReadController.SetWhatToDo("TimeProfileItem", 0)	#Do not read
+AddNetReadController.SetWhatToDo("VehJourney", 0)		#Do not read
+AddNetReadController.SetWhatToDo("VehJourneyItem", 0)		#Do not read
+AddNetReadController.SetWhatToDo("VehJourneySection", 0)	#Do not read
+
+Visum.IO.LoadAccessDatabase(access_path, ReadAdditive=True, routeSearch=None, AddNetRead=AddNetReadController)
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "4"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Change Direction Code"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.Directions.SetMultiAttValues("Code", ((1, 'H'), (2, 'R')))	#set directions
+
+# 1 to direction
+# 2 from direction]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "5"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "PreSettings"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "6"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "MANUALLY: For Cordon Zones assign node to zone"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "ZONE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "NAME"
+        ONLYACTIVE = "0"
+        FORMULA = "NodeNumberManually"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "7"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "create UDAs"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[
+# ====== Functions ========
+
+def addStaticUDA( name="dummy", object="net", type="float"):
+    # define visum type numbers of data types
+    dict_types = {"str": 5,
+                  "float": 2,
+                  "int": 1,
+                  "bool": 9}
+
+    # type to type number
+    typeno = dict_types[type.lower()]
+
+    object = object[0].upper() + object[1:]
+
+    # design of function call of ... .AddUserDefinedAttribute(id, short name, long name, value type)
+    if object.lower() == "net":
+        # case: net object
+        str_method_call = "Visum.Net" + ".AddUserDefinedAttribute('" \
+                          + name + "','" \
+                          + name + "','" \
+                          + name + "'," \
+                          + str(typeno) + ")"
+    else:
+        # all other objects
+        str_method_call = "Visum.Net." + object + ".AddUserDefinedAttribute('"\
+                          + name + "','" \
+                          + name + "','" \
+                          + name + "'," \
+                          + str(typeno) + ")"
+
+    try:
+        eval(str_method_call)
+        print("UDA", name, object, " is created successfully")
+    except:
+        print("UDA", name, object, "is already defined")
+
+def open_visum(name):
+    try:
+        ''' VisumStart
+        - enables the usage in the procedure sequence or as Visum instance
+        - name of the Visum version that is opened
+        '''
+        global Visum
+        Visum
+        name = Visum.UserPreferences.DocumentName
+    except NameError:
+        import win32com.client as com
+        print('initialize visum instance')
+        Visum = com.Dispatch("Visum.Visum.200")
+        print('open visum file: {}'.format(name))
+        Visum.LoadVersion(name)
+        print('erfolgreich geladen')
+
+    return Visum
+# ====== Core ==========
+
+str_version = r"D:\Seafile\35_VRS\Version\35_VRS_Test_AM.ver"
+Visum = open_visum(str_version)
+
+# insert UDA data here
+# format:   [name, object, data type]
+# e.g:      ["dummy", "links", "float"]
+list_UDA = [
+           ["LinTimExport", "TSystems", "bool"],
+           ["TSys_LinTim_Modification", "TSystems", "bool"],
+           ]
+
+for uda in list_UDA:
+    addStaticUDA(uda[0], uda[1], uda[2])
+
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "8"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Symmetrize"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "9"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "TSysSet Reverse Link"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINK"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TSYSSET"
+        ONLYACTIVE = "0"
+        FORMULA = "IF([TSYSSET]=&quot;&quot;,[REVERSELINK\TSYSSET],[TSYSSET])"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "10"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "If length = 0: If possible: length Reverse Link"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINK"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "LENGTH"
+        ONLYACTIVE = "0"
+        FORMULA = "IF([LENGTH]=0,IF([REVERSELINK\LENGTH]!=0,[REVERSELINK\LENGTH],[LENGTH]),[LENGTH])"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "11"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "If time = 0: If possible: Time Reverse Link"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[import numpy as np
+from numpy import *
+
+def get_tsys():
+    tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "Type"], True)
+    oev = []
+    for ii in range(len(tsys)):
+        if tsys[ii][1] == 'PUT':
+            oev.append(tsys[ii][0])
+    return oev
+
+systems = get_tsys()
+for ii in range(len(systems)):
+    attr_links = ["REVERSELINK\T_PUTSYS(" + systems[ii] + ")", "T_PUTSYS(" + systems[ii] + ")"]
+    all_links = array(Visum.Net.Links.GetMultipleAttributes(attr_links),dtype=int)
+    for jj in range(len(all_links)):
+        if all_links[jj][1] == 0:
+            if all_links[jj][0] != 0:
+                all_links[jj][1] = all_links[jj][0]
+        all_links[jj][0] = jj + 1
+    Visum.Net.Links.SetMultiAttValues("T_PUTSYS(" + systems[ii] + ")", all_links)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "12"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Set length"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINK"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "LENGTH"
+        ONLYACTIVE = "0"
+        FORMULA = "IF([LENGTH]=0,[LENGTHPOLY],[LENGTH])"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "13"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Filter Links where TSys in opposite direction is not the same and add TSys"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+LinkFilter = Visum.Filters.LinkFilter()
+LinkFilter.Init()
+LinkFilter.AddCondition("OP_None", False, "TSysSet", "NotEqualAtt", "ReverseLink\TSysSet")
+LinkFilter.UseFilter = True
+
+# Change TSysSet
+Attr_Links = ["TSysSet", "ReverseLink\TSysSet"]
+try:
+	links = list(Visum.Net.Links.GetMultipleAttributes(Attr_Links, OnlyActive=True))
+except:
+	links = []
+if len(links) > 0:
+	for ii in range(len(links)):
+		links[ii] = list(links[ii])
+		tmp_to_link = links[ii][1].split(",")
+		for kk in range(len(tmp_to_link)):
+			if tmp_to_link[kk] not in links[ii][0]:
+				links[ii][0] += "," + tmp_to_link[kk]
+
+	Visum.Net.Links.SetMultipleAttributes(Attr_Links, links, True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "14"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "15"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "If time = 0 and filtered, then calculate time"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# GetAllTSys-PuT
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "Type"], True)
+oev = []
+for ii in range(len(tsys)):
+    if tsys[ii][1] == 'PUT':
+        oev.append(tsys[ii][0])
+
+for jj in range(len(oev)):
+    LinkFilter = Visum.Filters.LinkFilter()
+    LinkFilter.Init()
+    LinkFilter.AddCondition("OP_None", False, "TSysSet", "ContainsOneOf", oev[jj])
+    LinkFilter.UseFilter = True
+    
+    
+    Attr_Links = ["T_PuTSys(" + oev[jj] + ")", "LinkType\VDef_PuTSys(" + oev[jj] + ")", "Length"]     # [TPuTSys(...), LinkType\VDef_PuTSys(...), Length]
+    links = list(Visum.Net.Links.GetMultipleAttributes(Attr_Links, OnlyActive=True))
+    for hh in range(len(links)):
+        links[hh] = list(links[hh])
+
+#calculate T_PuTSys if it is 0, and round it. If still 0 --> 60s
+    for ll in range(len(links)):
+        if links[ll][0] == 0:
+            links[ll][0] = round((links[ll][2]/links[ll][1])*60)*60
+            if links[ll][0] == 0:
+                links[ll][0] = 60
+
+    if links != []:
+        Visum.Net.Links.SetMultipleAttributes(Attr_Links, links, True)
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "16"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "17"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "t = min"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[import numpy as np
+from numpy import *
+
+def get_tsys():
+    tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "Type"], True)
+    oev = []
+    for ii in range(len(tsys)):
+        if tsys[ii][1] == 'PUT':
+            oev.append(tsys[ii][0])
+    return oev
+
+systems = get_tsys()
+for ii in range(len(systems)):
+    attr_links = ["REVERSELINK\T_PUTSYS(" + systems[ii] + ")", "T_PUTSYS(" + systems[ii] + ")"]
+    all_links = array(Visum.Net.Links.GetMultipleAttributes(attr_links),dtype=int)
+    for jj in range(len(all_links)):
+        if all_links[jj][1] > all_links[jj][0]:
+            if all_links[jj][0] != 0:
+                all_links[jj][1] = all_links[jj][0]
+        all_links[jj][0] = jj + 1
+    Visum.Net.Links.SetMultiAttValues("T_PUTSYS(" + systems[ii] + ")", all_links)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "18"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "CreateConnectors"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "19"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "MANUALLY: Delete zones"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+ZoneFilter = Visum.Filters.ZoneFilter()
+ZoneFilter.Init()
+ZoneFilter.AddCondition("OP_None", False, "TypeNo", "ContainedIn", "1,3,4,5")
+ZoneFilter.AddCondition("OP_Or", True, "No", "ContainedIn", Visum.Filters.Range(22300, 22399))
+ZoneFilter.AddCondition("OP_And", True, "TypeNo", "ContainedIn", "9")
+ZoneFilter.UseFilter = True
+
+Visum.Net.Zones.RemoveAll(True)	#Delete selected zones]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "20"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "21"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set NodeFilter"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+NodeFilter = Visum.Filters.NodeFilter()
+NodeFilter.Init()
+NodeFilter.AddCondition("OP_None", False, "Count:OutLinks", "NotEqualVal", 0)
+NodeFilter.UseFilter = True]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "22"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set ZoneFilter (only Stuttgart, &lt; 1.000.000)"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+ZoneFilter = Visum.Filters.ZoneFilter()
+ZoneFilter.Init()
+ZoneFilter.AddCondition("OP_None", False, "TypeNo", "ContainedIn", "1,2")
+ZoneFilter.UseFilter = True]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "23"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "CreateConnectors"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.CreateODConnectors(PrTorPuT=1, MaxLength=2000, MaxNumConnectorsPerZoneCreatedInThisStep=1, MaxNumConnectorsPerZoneTotal=1, TypeOfNewConnectors=0)
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "24"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "25"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set NodeFilter"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+NodeFilter = Visum.Filters.NodeFilter()
+NodeFilter.Init()
+NodeFilter.AddCondition("OP_None", False, "Count:OutLinks", "NotEqualVal", 0)
+NodeFilter.UseFilter = True]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "26"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set ZoneFilter (only Stuttgart, &gt;= 1.000.000)"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+ZoneFilter = Visum.Filters.ZoneFilter()
+ZoneFilter.Init()
+ZoneFilter.AddCondition("OP_None", True, "TypeNo", "ContainedIn", "1,2")
+ZoneFilter.UseFilter = True
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "27"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "MANUALLY (reminder if not done above): For Cordon Zones assign node to zone"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "ZONE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "NAME"
+        ONLYACTIVE = "0"
+        FORMULA = ""
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "28"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "CreateConnectors"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Add Connectors based on ActiveZones
+
+Attr_Zones = ["No", "Name"]
+zones = list(Visum.Net.Zones.GetMultipleAttributes(Attr_Zones, OnlyActive=True))
+
+for ii in range(len(zones)):
+	Visum.Net.AddConnector(zones[ii][0],zones[ii][1])	#Add connector
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "29"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "30"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Delete Zones with no connector"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Filters.ZoneFilter().UseFilter = True
+Visum.Filters.ZoneFilter().AddCondition("OP_NONE", False, "NumConnectors", 9, 0)  # 9= Equal to given value
+
+Visum.Net.Zones.RemoveAll(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "31"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "32"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Change Stop-TypeNo"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "33"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "StopPointAreas"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "STOPAREA"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TYPENO"
+        ONLYACTIVE = "0"
+        FORMULA = "[NODES\MAX:INLINKS\TYPENO]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "34"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Stops"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "STOP"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TYPENO"
+        ONLYACTIVE = "0"
+        FORMULA = "[MAX:STOPAREAS\TYPENO]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "35"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "StopPoints"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "STOPPOINT"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TYPENO"
+        ONLYACTIVE = "0"
+        FORMULA = "[STOPAREA\TYPENO]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "36"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Turns symmetrical"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "37"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "TSysSet = TSysSet opposite direction"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+TurnFilter = Visum.Filters.TurnFilter()
+TurnFilter.Init()
+TurnFilter.AddCondition("OP_None", False, "TSysSet", "NotEqualAtt", "ReverseTurn\TSysSet")
+TurnFilter.UseFilter = True
+
+# Change TSysSet
+Attr_Turns = ["TSysSet", "ReverseTurn\TSysSet"]
+turns = list(Visum.Net.Turns.GetMultipleAttributes(Attr_Turns, OnlyActive=True))
+for ii in range(len(turns)):
+    turns[ii] = list(turns[ii])
+    tmp_to_turn = turns[ii][1].split(",")
+    for kk in range(len(tmp_to_turn)):
+        if tmp_to_turn[kk] not in turns[ii][0]:
+            turns[ii][0] += "," + tmp_to_turn[kk]
+
+Visum.Net.Turns.SetMultipleAttributes(Attr_Turns, turns, True)
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "38"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "39"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Load Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "40"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Load Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[directory = Visum.GetPath(81)		#81 =accdb
+access_path = directory + r"LineRoutesAsLinks_EditedLinks.accdb"
+
+
+# create NetRouteSearchTSys-Object and choose route search options
+NetReadRouteSearchTSysController = Visum.CreateNetReadRouteSearchTSys()
+NetReadRouteSearchTSysController.SetAttValue("DELETEOLDLINEROUTES", False)
+NetReadRouteSearchTSysController.SetAttValue("IGNOREITEMSWITHUNKNOWNNETWORKREFERENCE", False)
+NetReadRouteSearchTSysController.SetAttValue("WHATTODOIFSTOPPOINTNOTFOUND", 1)	#Use stop point of node
+NetReadRouteSearchTSysController.SetAttValue("WHATTODOIFSTOPPOINTISBLOCKED", 2)	#Open the stop point
+NetReadRouteSearchTSysController.SetAttValue("INCLUDEBLOCKEDLINKS", False)
+NetReadRouteSearchTSysController.SetAttValue("INCLUDEBLOCKEDTURNS", False)
+NetReadRouteSearchTSysController.SetAttValue("HOWTOHANDLEINCOMPLETEROUTE", "SEARCHSHORTESTPATH")
+NetReadRouteSearchTSysController.SetAttValue("SHORTESTPATHCRITERION", 1)	#Link travel time of current transport system
+NetReadRouteSearchTSysController.SetAttValue("MAXDEVIATIONFACTOR", 20)
+NetReadRouteSearchTSysController.SetAttValue("LINKTYPEFORINSERTEDLINKSREPLACINGMISSINGSHORTESTPATHS", 98)
+
+# create NetRouteSearch-Object and assign NetRouteSearchTSys-objects
+NetReadRouteSearchController = Visum.CreateNetReadRouteSearch()
+NetReadRouteSearchController.SetForAllTSys(NetReadRouteSearchTSysController)
+
+
+# create AddNetRead-Object and specify desired conflict avoiding method
+AddNetReadController = Visum.CreateAddNetReadController
+AddNetReadController.SetWhatToDo("Network", 3)	#Ignore
+AddNetReadController.SetWhatToDo("Node", 0)	#Do not read
+AddNetReadController.SetWhatToDo("Link", 0)	#Do not read
+AddNetReadController.SetWhatToDo("Stop", 0)	#Do not read
+AddNetReadController.SetWhatToDo("StopArea", 0)	#Do not read
+AddNetReadController.SetWhatToDo("StopPoint", 0)	#Do not read
+
+Visum.IO.LoadAccessDatabase(access_path, ReadAdditive=True, routeSearch=None, AddNetRead=AddNetReadController)
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "41"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Delete empty nodes/stops"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "42"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "43"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set NodeFilter"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+NodeFilter = Visum.Filters.NodeFilter()
+NodeFilter.Init()
+NodeFilter.AddCondition("OP_None", False, "NumLinks", "EqualVal", 0)
+NodeFilter.UseFilter = True]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "44"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Delete empty nodes"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.Nodes.RemoveAll(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "45"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "46"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set StopFilter"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+StopGroupFilter = Visum.Filters.StopGroupFilter()
+StopGroupFilter.UseFilterForStops = True
+StopGroupFilter.StopFilter().AddCondition("OP_NONE", False, "NumStopPoints", "EqualVal", 0)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "47"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Delete empty stops"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.Stops.RemoveAll(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "48"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Set Stop TSys"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "49"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "50"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Set StopPoint TSys"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "STOPPOINT"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TSYSSET"
+        ONLYACTIVE = "0"
+        FORMULA = "[DISTINCTACTIVE:LINEROUTES\TSYSCODE]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "51"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Simplify TimeProfiles"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "52"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "TSystems: Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "TSYS"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TSYS_LINTIM_MODIFICATION"
+        ONLYACTIVE = "1"
+        FORMULA = "0"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "53"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Select TSys for optimizing"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[from VisumPy.Tk import *
+
+def get_tsys():
+    tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "Type"], True)
+    oev = []
+    for ii in range(len(tsys)):
+        if tsys[ii][1] == 'PUT':
+            oev.append(tsys[ii][0])
+    return oev
+
+def var_states():
+	Visum.Net.TSystems.ItemByKey(systems[var.get()]).SetAttValue("TSys_LinTim_Modification", 1)
+	root.destroy()
+
+
+
+systems = get_tsys()
+root = Tk.Tk()
+var = Tk.IntVar()
+Tk.Label(root, text="Please choose the transport system to optimze:").grid(row=0, sticky=Tk.W)
+string = []
+for jj in range(len(systems)):
+	string.append(jj)
+	string[jj] = Tk.IntVar()
+	Tk.Radiobutton(root, text=systems[jj], variable=var, value=jj).grid(row=jj + 1, columnspan=2)
+
+Tk.Button(root, text='Continue', command=var_states).grid(row=len(systems) + 1)   
+
+
+root.mainloop()]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "54"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "55"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Filter Fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be optimized
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", True, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "56"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Fixed Lines: Use every RoutePoint"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ISROUTEPOINT"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "57"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Fixed lines: Don&apos;t skip any stops"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.LineRouteItems.MakeRoutePointsTimeProfileItems(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "58"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Allow at skipped stops alight"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "TIMEPROFILEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ALIGHT"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "59"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Allow at skipped stops board"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "TIMEPROFILEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "BOARD"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "60"
+      CODE = ""
+      OPERATIONTYPE = "UpdateTravelTimes"
+      ACTIVE = "1"
+      COMMENT = "Set and round"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <UPDATETIMEPROFILETRAVELTIMESPARA
+        ONLYACTIVETIMEPROFILEITEMS = "1"
+        ADDVALUES = "0"
+        MODEFORUNUSEDTIMEPROFILEITEMS = "ALLTIMEPROFILES"
+        UPDATERUNTIME = "1"
+        RUNTIMEMETHOD = "FROMTPIATTR"
+        RUNTIMELINKATTRID = ""
+        RUNTIMELINKFACTOR = "1"
+        RUNTIMETIMEPROFILEITEMATTRID = "POSTRUNTIME"
+        RUNTIMETIMEPROFILEITEMFACTOR = "1"
+        RUNTIMETURNATTRID = "TCUR_PRTSYS(P)"
+        RUNTIMETURNFACTOR = "1"
+        RUNTIMECONSTANT = "0"
+        RUNTIMEROUNDINGMETHOD = "ROUNDINGTIME_60S"
+        RUNTIMEREGARDONLYACTIVELINKS = "0"
+        RUNTIMEREGARDSYSROUTEONLYIFVEHCOMBFITS = "0"
+        RUNTIMEREGARDTURNSANDMAINTURNS = "0"
+        UPDATESTOPTIME = "1"
+        STOPTIMEMETHOD = "FROMTPIATTR"
+        STOPTIMESTOPPOINTATTRID = ""
+        STOPTIMESTOPPOINTFACTOR = "1"
+        STOPTIMETIMEPROFILEITEMATTRID = "STOPTIME"
+        STOPTIMETIMEPROFILEITEMFACTOR = "1"
+        STOPTIMECONSTANT = "0"
+        STOPTIMEROUNDINGMETHOD = "ROUNDINGTIME_60S"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "61"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Serve all stops from begining"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "VEHJOURNEY"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "FROMTPROFITEMINDEX"
+        ONLYACTIVE = "1"
+        FORMULA = "[TIMEPROFILE\STARTTIMEPROFILEITEM\INDEX]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "62"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Serve all stops until the end"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "VEHJOURNEY"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TOTPROFITEMINDEX"
+        ONLYACTIVE = "1"
+        FORMULA = "[TIMEPROFILE\ENDTIMEPROFILEITEM\INDEX]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "63"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Create periodic timeprofile for fixed lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "64"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "65"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Filter Fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", True, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(14400,86400) )  # 13= Contained in given set]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "66"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "FirstDep after 4am in seconds"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL1"
+        ONLYACTIVE = "1"
+        FORMULA = "[MINACTIVE:VEHJOURNEYS\DEP]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "67"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "68"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Filter Lines which should be modified, determine headway with departurest between 7am and 8am"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", True, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32200) )  # 13= Contained in given set, 7am  to 8am]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "69"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Frequency"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL2"
+        ONLYACTIVE = "1"
+        FORMULA = "120/[LINE\AVGACTIVE:LINEROUTES\COUNTACTIVE:VEHJOURNEYS]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "70"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Frequency"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL2"
+        ONLYACTIVE = "1"
+        FORMULA = "IF([ADDVAL2]&gt;45,60,IF([ADDVAL2]&gt;25,30,IF([ADDVAL2]&gt;=19,20,IF([ADDVAL2]&gt;=15,15,10))))"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "71"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "72"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Filter Fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", True, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "73"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Remove all VehJourney from fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.VehicleJourneys.RemoveAll(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "74"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Add VehJourneys with Headway"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[VJNo_Max = max(list(Visum.Net.VehicleJourneys.GetMultipleAttributes(["No"], OnlyActive=False)))[0]  		# get last VehJourneyNo
+
+Attr_LineRoutes = ["Name", "LineName", "DirectionCode", r"Min:TimeProfiles\Name", "AddVal1", "AddVal2"]	# set relevant attributes
+lineroutes = list(Visum.Net.LineRoutes.GetMultipleAttributes(Attr_LineRoutes, OnlyActive=True))     		# get active lineroutes
+for ii in range(len(lineroutes)):
+    dep = lineroutes[ii][4]
+    while dep < 86400:
+        VJNo_Max = VJNo_Max + 1 
+        LRName = lineroutes[ii][0]
+        LName = lineroutes[ii][1]
+        Dir = lineroutes[ii][2]
+        TPName = lineroutes[ii][3]
+        Visum.Net.AddVehicleJourney(VJNo_Max, Visum.Net.TimeProfiles.ItemByKey(LName, Dir, LRName, TPName))
+        Visum.Net.VehicleJourneys.ItemByKey(VJNo_Max).SetAttValue("dep", dep)
+        dep += lineroutes[ii][5] * 60]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "75"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "76"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Change Direction Code"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.Directions.SetMultiAttValues("Code", ((1, '>'), (2, '<')))	#set directions
+
+# 1 to direction
+# 2 from direction]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "77"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Demand Data"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "78"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set TSystems"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Change TSys
+Attr_TSys = ["Code", "Name", "Type"]
+Attr_TSys_edit = ["Name"]
+Attr_TSys_edit2 = ["Code"]
+all_tsys = list(Visum.Net.TSystems.GetMultipleAttributes(Attr_TSys))
+all_tsys_edit = list(Visum.Net.TSystems.GetMultipleAttributes(Attr_TSys_edit))
+all_tsys_edit2 = list(Visum.Net.TSystems.GetMultipleAttributes(Attr_TSys_edit2))
+
+for gg in range(len(all_tsys_edit)):
+    all_tsys_edit[gg] = list(all_tsys_edit[gg])         # tupel to list
+
+for hh in range(len(all_tsys_edit2)):
+    all_tsys_edit2[hh] = list(all_tsys_edit2[hh])       # tupel to list
+
+for ii in range(len(all_tsys)):
+	if all_tsys[ii][2] == "PUTWALK":
+		all_tsys_edit[ii][0] = "Walk"
+		all_tsys_edit2[ii][0] = "Walk"
+
+
+# name has to be changed first, otherwise error
+Visum.Net.TSystems.SetMultipleAttributes(Attr_TSys_edit, all_tsys_edit, False)
+Visum.Net.TSystems.SetMultipleAttributes(Attr_TSys_edit2, all_tsys_edit2, False)
+
+
+
+'''does not work in the procedure sequence
+#Remove several TSys
+all_tsys = list(Visum.Net.TSystems.GetMultipleAttributes(Attr_TSys))    # list with changed names
+for ii in range(len(all_tsys)):
+	if all_tsys[ii][2] == "PRT" and (all_tsys[ii][1].startswith("Lkw") or all_tsys[ii][1] == "Rad" or all_tsys[ii][1] == "Fuss"):
+		Visum.Net.RemoveTSystem(Visum.Net.TSystems.ItemByKey(all_tsys[ii][0]))
+'''
+
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "79"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Remove some TSystems"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Remove TSys
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Type", "Code", "LINTIMEXPORT"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][0] == 'PUT' and tsys[ii][2] == 0:
+		try:
+			Visum.Net.RemoveTSystem(Visum.Net.TSystems.ItemByKey(tsys[ii][1]))
+		except:
+			pass]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "80"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Set Walking"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "81"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Allow walking on all links"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINK"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TSYSSET"
+        ONLYACTIVE = "0"
+        FORMULA = "[TSYSSET]+&quot;,Walk&quot;"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "82"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Set Walktime"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINK"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "T_PUTSYS(WALK)"
+        ONLYACTIVE = "0"
+        FORMULA = "([LENGTH]/4)*3600"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "83"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set Transfer walk times between stop areas "
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[transferwalktime = 180 #seconds
+
+stops = Visum.Net.Stops.GetMultipleAttributes(["No"]) #getall No
+for ii in range(len(stops)):
+	Visum.Net.Stops.ItemByKey(stops[ii][0]).SetStopAreaTransferWalkTime(FromStopArea=stops[ii][0], ToStopArea=stops[ii][0], TSys="Walk", arg3=transferwalktime)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "84"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Edit cordon-connectors"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "85"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "86"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Set ConnectorFiler (Only Non-Stuttgart, &gt;=1.000.000)"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[# Set Filter
+ConnectorFilter = Visum.Filters.ConnectorFilter()
+ConnectorFilter.Init()
+ConnectorFilter.AddCondition("OP_None", True, "Zone\TypeNo", "ContainedIn", "1,2")
+ConnectorFilter.UseFilter = True
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "87"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Set Walk"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "CONNECTOR"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TSYSSET"
+        ONLYACTIVE = "1"
+        FORMULA = "&quot;Walk&quot;"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "88"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Set 0"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "CONNECTOR"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "LENGTH"
+        ONLYACTIVE = "1"
+        FORMULA = "0"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "89"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "Calculate"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "CONNECTOR"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "T0_TSYS(WALK)"
+        ONLYACTIVE = "1"
+        FORMULA = "([LENGTH]/4)*3600"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "90"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "91"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Change VehUnits"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "92"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Remove VehUnits and VehCombinations"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.VehicleUnits.RemoveAll()
+Visum.Net.VehicleCombinations.RemoveAll()]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "93"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Create VehUnits"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[from VisumPy.Tk import *
+
+#Add VehUnits
+def add_vehunit(no, vsysset, code, powered, seatcap, totalcap, costratehour, costratekm, costratevehunit, reftime):
+	Visum.Net.AddVehicleUnit(no, vsysset)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("Code", code)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("Name", code)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("Powered", powered)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("SeatCap", seatcap)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("TotalCap", totalcap)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateHourService", costratehour)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateHourEmpty", costratehour)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateHourLayover", costratehour)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateHourDepot", 0)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateKmService", costratekm)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateKmEmpty", costratekm)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("CostRateVehUnit", costratevehunit)
+	Visum.Net.VehicleUnits.ItemByKey(no).SetAttValue("RefTime", reftime)
+
+
+def ok():                     # on command 'OK'
+	sc = f1.get()       	# get: seat capacity
+	tc = f2.get()        	# get: total capacity
+	ch = float(f3.get())      # get: cost rate hour
+	ck = float(f4.get())      # get: cost rate km
+	cv = float(f5.get())      # get: cost rate veh
+	add_vehunit(iter, tsys[ii][2], tsys[ii][2], 1, sc, tc, ch, ck, cv, 1)
+	root.destroy()              # close Tkinter
+
+
+# GetAllTSys-PuT
+iter = 0
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Name", "Type", "Code"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 'PUT':
+		iter +=1
+		root = Tk.Tk()      # create Tkinter Modul
+		Tk.Label(root, text="Please specify the following options for TSys " + tsys[ii][0] + ".").pack()         # Tkinter Modul, first line
+		Tk.Label(root, text="").pack()                                              # empty line
+
+		frame = Tk.Frame(root)  # create Tkinter Frame
+		frame.pack()
+		Tk.Label(frame, text="Seat Capacity:", relief=Tk.SUNKEN).grid(row=0, column=1)  # create first entry in frame + position
+		f1 = Tk.Entry(frame, relief=Tk.SUNKEN, justify=Tk.CENTER)                                   # create first entry box
+		if tsys[ii][2] == 'B':
+			f1.insert(0, "70")                                                                         # value
+		elif tsys[ii][2] == 'S' or tsys[ii][2] == 'LRT':
+			f1.insert(0, "1000") 
+		elif tsys[ii][2] == 'U':
+			f1.insert(0, "400")
+		elif tsys[ii][2] == 'HRT' or tsys[ii][2] == 'R':
+			f1.insert(0, "800")
+		elif tsys[ii][2] == 'T':
+			f1.insert(0, "1500")
+		else:
+			f1.insert(0, "")
+		f1.grid(row=0, column=2)                                                                    # position
+
+		Tk.Label(frame, text="Total Capacity:", relief=Tk.SUNKEN).grid(row=1, column=1)           # create second entry in frame + position
+		f2 = Tk.Entry(frame, relief=Tk.SUNKEN, justify=Tk.CENTER)                                   # create second entry box
+		if tsys[ii][2] == 'B':
+			f2.insert(0, "70")                                                                         # value
+		elif tsys[ii][2] == 'S' or tsys[ii][2] == 'LRT':
+			f2.insert(0, "1000") 
+		elif tsys[ii][2] == 'U':
+			f2.insert(0, "400")
+		elif tsys[ii][2] == 'HRT' or tsys[ii][2] == 'R':
+			f2.insert(0, "800")
+		elif tsys[ii][2] == 'T':
+			f2.insert(0, "1500")
+		else:
+			f2.insert(0, "")    
+		f2.grid(row=1, column=2)                                                                    # position
+
+		Tk.Label(frame, text="Cost rate hour:", relief=Tk.SUNKEN).grid(row=2, column=1)    # create third entry in frame + position
+		f3 = Tk.Entry(frame, relief=Tk.SUNKEN, justify=Tk.CENTER)                                   # create third entry box
+		if tsys[ii][2] == 'B':
+			f3.insert(0, "25")                                                                         # value
+		elif tsys[ii][2] == 'S' or tsys[ii][2] == 'LRT':
+			f3.insert(0, "100") 
+		elif tsys[ii][2] == 'U':
+			f3.insert(0, "50")
+		elif tsys[ii][2] == 'HRT' or tsys[ii][2] == 'R':
+			f3.insert(0, "150")
+		elif tsys[ii][2] == 'T':
+			f3.insert(0, "150")
+		else:
+			f3.insert(0, "") 
+		f3.grid(row=2, column=2)                                                                    # position
+
+		Tk.Label(frame, text="Cost rate kilometer:", relief=Tk.SUNKEN).grid(row=3, column=1)    # create fourth entry in frame + position
+		f4 = Tk.Entry(frame, relief=Tk.SUNKEN, justify=Tk.CENTER)                                   # create fourth entry box
+		if tsys[ii][2] == 'B':
+			f4.insert(0, "1.5")                                                                         # value
+		elif tsys[ii][2] == 'S' or tsys[ii][2] == 'LRT':
+			f4.insert(0, "3") 
+		elif tsys[ii][2] == 'U':
+			f4.insert(0, "2")
+		elif tsys[ii][2] == 'HRT' or tsys[ii][2] == 'R':
+			f4.insert(0, "4")
+		elif tsys[ii][2] == 'T':
+			f4.insert(0, "3")
+		else:
+			f4.insert(0, "") 
+		f4.grid(row=3, column=2)                                                                    # position
+
+		Tk.Label(frame, text="Cost rate vehicle unit:", relief=Tk.SUNKEN).grid(row=4, column=1)    # create fifth entry in frame + position
+		f5 = Tk.Entry(frame, relief=Tk.SUNKEN, justify=Tk.CENTER)                                   # create fifth entry box
+		if tsys[ii][2] == 'B':
+			f5.insert(0, "200")                                                                         # value
+		elif tsys[ii][2] == 'S' or tsys[ii][2] == 'LRT':
+			f5.insert(0, "500") 
+		elif tsys[ii][2] == 'U':
+			f5.insert(0, "400")
+		elif tsys[ii][2] == 'HRT' or tsys[ii][2] == 'R':
+			f5.insert(0, "500")
+		elif tsys[ii][2] == 'T':
+			f.insert(0, "500")
+		else:
+			f5.insert(0, "") 
+		f5.grid(row=4, column=2)                                                                    # position
+
+		Tk.Label(root, text="").pack()                                              # empty line
+		Tk.Button(root, text="OK", command=ok).pack()                               # create OK-Button
+
+		root.mainloop()
+
+
+'''
+add_vehunit(1, "B", "Bus", 1, 70, 70, 25, 1.5, 200, 1)
+add_vehunit(2, "HRT", "HRT", 1, 800, 800, 150, 4, 500, 1)
+add_vehunit(3, "LRT", "LRT", 1, 1000, 1000, 100, 3, 500, 0)
+add_vehunit(4, "T", "T", 1, 1500, 1500, 150, 3, 500, 0)
+add_vehunit(5, "U", "U", 1, 400, 400, 50, 2, 400, 0)
+''']]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "94"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Create VehCombinations"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Add VehUnits
+def add_vehcombination(no, code):
+	Visum.Net.AddVehicleCombination(no)
+	Visum.Net.VehicleCombinations.ItemByKey(no).SetAttValue("Code", code)
+	Visum.Net.VehicleCombinations.ItemByKey(no).SetAttValue("Name", code)
+
+
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Name", "Type", "Code"], True)
+iter = 0
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 'PUT':
+		iter +=1
+		add_vehcombination(iter, tsys[ii][2])]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "95"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Combine VehUnits and VehCombinations"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA['''
+COM-Funktion zum verknüpfen existiert erst ab Visum22.
+CodeSnippet:
+
+VehicleUnit1 = Visum.Net.AddVehicleUnit(1, TSystem1)
+VehicleCombination = Visum.Net.AddVehicleCombination(17)
+
+VehicleCombination.AddVehicleUnit(VehicleUnit1)
+'''
+
+# write net file manually and load it
+# headers
+vision_en = "$VISION\n" \
+            "* Universität Stuttgart Fakultät 2 Bau+Umweltingenieurwissenschaften Stuttgart\n" \
+            "* 06/27/22\n"
+
+table_version_block_net_en = "*\n" \
+                             "* Table: Version block\n" \
+                             "*\n" \
+                             "$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT\n" \
+                             "11,000;Net;ENG;KM\n"
+
+table_vehicle_combination_items_en = "*\n" \
+                             	   	 "* Table: Version block\n" \
+                             		 "*\n" \
+                             		 "$VEHUNITTOVEHCOMB:VEHCOMBNO;VEHUNITNO;NUMVEHUNITS\n" \
+
+
+# write net-file, load net-file, delete net-file
+filepath_net = Visum.GetPath(1)
+file_tmp = filepath_net + "VehCombItems.net"
+all_vehcombs = list(Visum.Net.VehicleCombinations.GetMultiAttValues("No"))
+all_vehunits = list(Visum.Net.VehicleUnits.GetMultiAttValues("No"))
+with open(file_tmp, "w", newline="\n") as f:
+	f.write(vision_en)
+	f.write(table_version_block_net_en)
+	f.write(table_vehicle_combination_items_en)
+	for ii in range(len(all_vehcombs)):
+		f.write(str(int(all_vehcombs[ii][1])) + ";" + str(int(all_vehunits[ii][1])) + ";1\n")
+
+Visum.LoadNet(file_tmp, ReadAdditive=True)
+os.remove(file_tmp)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "96"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Lines for comparison with LinTim"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "97"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Simplify TimeProfiles"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "98"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "0"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "99"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Filter Fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be optimized
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", False, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "100"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Optimized Lines: Use every RoutePoint"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ISROUTEPOINT"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "101"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Optimized lines: Don&apos;t skip any stops"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.LineRouteItems.MakeRoutePointsTimeProfileItems(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "102"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Allow at skipped stops alight"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "TIMEPROFILEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ALIGHT"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "103"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Allow at skipped stops board"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "TIMEPROFILEITEM"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "BOARD"
+        ONLYACTIVE = "1"
+        FORMULA = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "104"
+      CODE = ""
+      OPERATIONTYPE = "UpdateTravelTimes"
+      ACTIVE = "0"
+      COMMENT = "Set and round"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <UPDATETIMEPROFILETRAVELTIMESPARA
+        ONLYACTIVETIMEPROFILEITEMS = "1"
+        ADDVALUES = "0"
+        MODEFORUNUSEDTIMEPROFILEITEMS = "ALLTIMEPROFILES"
+        UPDATERUNTIME = "1"
+        RUNTIMEMETHOD = "FROMTPIATTR"
+        RUNTIMELINKATTRID = ""
+        RUNTIMELINKFACTOR = "1"
+        RUNTIMETIMEPROFILEITEMATTRID = "POSTRUNTIME"
+        RUNTIMETIMEPROFILEITEMFACTOR = "1"
+        RUNTIMETURNATTRID = "TCUR_PRTSYS(P)"
+        RUNTIMETURNFACTOR = "1"
+        RUNTIMECONSTANT = "0"
+        RUNTIMEROUNDINGMETHOD = "ROUNDINGTIME_60S"
+        RUNTIMEREGARDONLYACTIVELINKS = "0"
+        RUNTIMEREGARDSYSROUTEONLYIFVEHCOMBFITS = "0"
+        RUNTIMEREGARDTURNSANDMAINTURNS = "0"
+        UPDATESTOPTIME = "1"
+        STOPTIMEMETHOD = "FROMTPIATTR"
+        STOPTIMESTOPPOINTATTRID = ""
+        STOPTIMESTOPPOINTFACTOR = "1"
+        STOPTIMETIMEPROFILEITEMATTRID = "STOPTIME"
+        STOPTIMETIMEPROFILEITEMFACTOR = "1"
+        STOPTIMECONSTANT = "0"
+        STOPTIMEROUNDINGMETHOD = "ROUNDINGTIME_60S"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "105"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Serve all stops from begining"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "VEHJOURNEY"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "FROMTPROFITEMINDEX"
+        ONLYACTIVE = "1"
+        FORMULA = "[TIMEPROFILE\STARTTIMEPROFILEITEM\INDEX]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "106"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Serve all stops until the end"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "VEHJOURNEY"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "TOTPROFITEMINDEX"
+        ONLYACTIVE = "1"
+        FORMULA = "[TIMEPROFILE\ENDTIMEPROFILEITEM\INDEX]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "107"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "0"
+      COMMENT = "Create periodic timeprofile for fixed lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "108"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "0"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "109"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Filter Lines which should be modified"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", False, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(14400,86400) )  # 13= Contained in given set]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "110"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "FirstDep after 4am in seconds"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL1"
+        ONLYACTIVE = "1"
+        FORMULA = "[MINACTIVE:VEHJOURNEYS\DEP]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "111"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "0"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "112"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Filter Lines which should be modified, determine headway with departurest between 7am and 8am"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", False, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32200) )  # 13= Contained in given set, 7am  to 8am]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "113"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Frequency"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL2"
+        ONLYACTIVE = "1"
+        FORMULA = "120/[LINE\AVGACTIVE:LINEROUTES\COUNTACTIVE:VEHJOURNEYS]"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "114"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "0"
+      COMMENT = "Frequency"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINEROUTE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "ADDVAL2"
+        ONLYACTIVE = "1"
+        FORMULA = "IF([ADDVAL2]&gt;45,60,IF([ADDVAL2]&gt;25,30,IF([ADDVAL2]&gt;=20,20,IF([ADDVAL2]&gt;=15,15,IF([ADDVAL2]&gt;=8,10,5)))))"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "115"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "0"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "116"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Filter Fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[#Get TSys which should be modified
+tsys = Visum.Net.TSystems.GetMultipleAttributes(["Code", "TSys_LinTim_Modification"], True)
+for ii in range(len(tsys)):
+	if tsys[ii][1] == 1:
+		tsys_opt = tsys[ii][0]
+		break
+
+# Set Filter
+Visum.Filters.LineGroupFilter().UseFilterForLines = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRoutes = True
+Visum.Filters.LineGroupFilter().UseFilterForLineRouteItems = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfiles = True
+Visum.Filters.LineGroupFilter().UseFilterForTimeProfileItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
+Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
+Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", False, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
+
+]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "117"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Remove all VehJourney from fixed Lines"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.VehicleJourneys.RemoveAll(OnlyActive=True)]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "118"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Add VehJourneys with Headway"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[VJNo_Max = max(list(Visum.Net.VehicleJourneys.GetMultipleAttributes(["No"], OnlyActive=False)))[0]  		# get last VehJourneyNo
+
+Attr_LineRoutes = ["Name", "LineName", "DirectionCode", r"Min:TimeProfiles\Name", "AddVal1", "AddVal2"]	# set relevant attributes
+lineroutes = list(Visum.Net.LineRoutes.GetMultipleAttributes(Attr_LineRoutes, OnlyActive=True))     		# get active lineroutes
+for ii in range(len(lineroutes)):
+    dep = lineroutes[ii][4]
+    while dep < 86400:
+        VJNo_Max = VJNo_Max + 1 
+        LRName = lineroutes[ii][0]
+        LName = lineroutes[ii][1]
+        Dir = lineroutes[ii][2]
+        TPName = lineroutes[ii][3]
+        Visum.Net.AddVehicleJourney(VJNo_Max, Visum.Net.TimeProfiles.ItemByKey(LName, Dir, LRName, TPName))
+        Visum.Net.VehicleJourneys.ItemByKey(VJNo_Max).SetAttValue("dep", dep)
+        dep += lineroutes[ii][5] * 60]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "119"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "0"
+      COMMENT = "Init"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = ""
+    />    
+    <OPERATION
+      NO = "120"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "0"
+      COMMENT = "Change Direction Code"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[Visum.Net.Directions.SetMultiAttValues("Code", ((1, '>'), (2, '<')))	#set directions
+
+# 1 to direction
+# 2 from direction]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "121"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Save version"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "122"
+      CODE = ""
+      OPERATIONTYPE = "Script"
+      ACTIVE = "1"
+      COMMENT = "Save ver"
+      EXECUTED = "0"
+      STARTTIME = ""
+      ENDTIME = ""
+      DURATION = ""
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "0"
+      COMPUTENODES = ""
+      WARNINGCOUNT = ""
+      ERRORCOUNT = ""
+      INFORMATIONCOUNT = ""
+      OPERATIONVARIABLECOUNT = "">
+      <EXECUTESCRIPTPARA
+        SCRIPTINGENVIRONMENT = "Python 3.7"
+        FILENAME = ""
+        USEINTERNALSCRIPTCODE = "1">
+        <INTERNALSCRIPTCODE>
+<![CDATA[current_name = Visum.IO.CurrentVersionFile				# get current directory + filename
+current_name = current_name.replace(".ver", "")				# remove .ver
+
+Visum.IO.SaveVersion(current_name + "_LinTim_Ready.ver")		# save version]]>
+        </INTERNALSCRIPTCODE>
+      </EXECUTESCRIPTPARA>
+    </OPERATION>
+  </OPERATIONS>
+  <OPERATIONVARIABLES>
+    <DEFINITIONS    />    
+    <VALUES>
+      <OPERATIONVARIABLES      />      
+    </VALUES>
+  </OPERATIONVARIABLES>
+</PROCEDURES>
