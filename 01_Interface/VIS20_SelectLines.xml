@@ -2235,14 +2235,7 @@ def set_visum_path():
     specify project directory type, set path to sub folder  
     '''
     Visum.SetPath(81, "\\".join([folder_path, 'Access-Database']))
-    Visum.SetPath(15, "\\".join([folder_path, 'Attributes']))
-    Visum.SetPath(21, "\\".join([folder_path, 'Filter']))
-    Visum.SetPath(8, "\\".join([folder_path, 'Graphicparameters']))
-    Visum.SetPath(69, "\\".join([folder_path, 'Matrix']))
     Visum.SetPath(1, "\\".join([folder_path, 'Net']))
-    Visum.SetPath(12, "\\".join([folder_path, 'Project-directories']))
-    Visum.SetPath(41, "\\".join([folder_path, 'Screenshot']))
-    Visum.SetPath(37, "\\".join([folder_path, 'Script']))
     Visum.SetPath(2, "\\".join([folder_path, 'Version']))
 
 set_visum_path()
