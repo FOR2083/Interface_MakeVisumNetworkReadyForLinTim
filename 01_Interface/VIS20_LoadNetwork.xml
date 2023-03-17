@@ -5161,7 +5161,7 @@ with open(file_tmp, "w", newline="\n") as f:
 		f.write(str(int(all_vehcombs[ii][1])) + ";" + str(int(all_vehunits[ii][1])) + ";1\n")
 
 Visum.LoadNet(file_tmp, ReadAdditive=True)
-#os.remove(file_tmp)]]>
+os.remove(file_tmp)]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
     </OPERATION>
