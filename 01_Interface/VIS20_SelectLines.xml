@@ -3413,6 +3413,8 @@ def get_tsys():
             oev.append(tsys[ii][0])
     return oev
 
+default_outfilelanguageisenglish = Visum.UserPreferences.FileAndProtocolUserPreferences.AttValue("OUTFILELANGUAGEISENGLISH")	# save original setting
+Visum.UserPreferences.FileAndProtocolUserPreferences.SetAttValue("OUTFILELANGUAGEISENGLISH" , 1)	# set outputfile english
 systems = get_tsys()
 directory = Visum.GetPath(81)		#81 =accdb
 access_path = directory + r"LineRoutesAsLinks_Master.accdb"
@@ -3585,7 +3587,9 @@ List.AddColumn("No")
 List.AddColumn("FROMTPROFITEMINDEX")
 List.AddColumn("TOTPROFITEMINDEX")
 List.SetObjects(True)
-List.SaveToAccessDatabase(destination_path)]]>
+List.SaveToAccessDatabase(destination_path)
+
+Visum.UserPreferences.FileAndProtocolUserPreferences.SetAttValue("OUTFILELANGUAGEISENGLISH" , default_outfilelanguageisenglish)	# load original setting]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
     </OPERATION>
