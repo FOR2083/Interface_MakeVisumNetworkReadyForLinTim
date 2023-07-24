@@ -3346,7 +3346,8 @@ for ii in range(len(turns)):
         if tmp_to_turn[kk] not in turns[ii][0]:
             turns[ii][0] += "," + tmp_to_turn[kk]
 
-Visum.Net.Turns.SetMultipleAttributes(Attr_Turns, turns, True)
+if turns != []:
+	Visum.Net.Turns.SetMultipleAttributes(Attr_Turns, turns, True)
 ]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
@@ -5161,7 +5162,7 @@ with open(file_tmp, "w", newline="\n") as f:
 		f.write(str(int(all_vehcombs[ii][1])) + ";" + str(int(all_vehunits[ii][1])) + ";1\n")
 
 Visum.LoadNet(file_tmp, ReadAdditive=True)
-os.remove(file_tmp)]]>
+#os.remove(file_tmp)]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
     </OPERATION>
