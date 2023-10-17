@@ -4225,7 +4225,7 @@ Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
 Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
 Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
 Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", True, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
-Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32200) )  # 13= Contained in given set, 7am  to 8am]]>
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32400) )  # 13= Contained in given set, 7am to 9am]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
     </OPERATION>
@@ -5640,7 +5640,7 @@ Visum.Filters.LineGroupFilter().UseFilterForVehJourneys = True
 Visum.Filters.LineGroupFilter().UseFilterForVehJourneyItems = True
 Visum.Filters.LineGroupFilter().UseFilterForVehJourneySections = True
 Visum.Filters.LineGroupFilter().LineFilter().AddCondition("OP_NONE", False, "TSysCode", 13, tsys_opt)  # 13= Contained in given set ; Complement= True
-Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32200) )  # 13= Contained in given set, 7am  to 8am]]>
+Visum.Filters.LineGroupFilter().VehJourneyFilter().AddCondition("OP_NONE", False, "Dep", 13, Visum.Filters.Range(25200,32400) )  # 13= Contained in given set, 7am to 9am]]>
         </INTERNALSCRIPTCODE>
       </EXECUTESCRIPTPARA>
     </OPERATION>
